@@ -20,7 +20,7 @@ const apps = [
     glow: "#343943",
     category: "popular",
     subtitle: "Online Learning",
-    url: "https://www.pw.live/"
+    url: "https://sahukgs.com/batches"
   },
   {
     name: "Next Toppers",
