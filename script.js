@@ -12,6 +12,28 @@ const apps = [
     url: "https://www.pw.live/"
   },
   {
+    name: "SACHIN ACADEMY",
+    icon: "PW",
+    emoji: "❤️‍🩹",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWAJafOLVT1o5OJIAZwKwameRraSv1K4KBQNDj1J09ww&s=10",
+    color: "#aab3c2",
+    glow: "#343943",
+    category: "popular",
+    subtitle: "Online Learning",
+    url: "https://sachinweb.pages.dev/"
+  },
+  {
+    name: "PHYSICS WALLAH",
+    icon: "PW",
+    emoji: "❤️‍🩹",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsPPJTx84nqujONE6xGDPWGjwhuKiN6-RoEl7hn5PmSg&s",
+    color: "#aab3c2",
+    glow: "#343943",
+    category: "popular",
+    subtitle: "Online Learning",
+    url: "https://www.pw.live/"
+  },
+  {
     name: "KGS",
     icon: "KGS",
     emoji: "❤️‍🩹",
