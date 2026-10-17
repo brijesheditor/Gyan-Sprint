@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#030806">
+  <title>Gyan Sprint - Learn Without Limits</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <!-- Top Header -->
+  <header class="topbar">
+    <a href="#" class="brand" id="brandHome">
+      <span class="brand-logo">🐼</span>
+      <span>Gyan<span class="green">Sprint</span></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+  </header>
+
+  <!-- Sidebar overlay -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="side-header">
+      <div class="side-brand">
+        <span class="brand-logo">🐼</span>
+        <span>Gyan<span class="green">Sprint</span></span>
+      </div>
+      <button class="close-btn" id="closeSidebar" aria-label="Close menu">×</button>
+    </div>
+
+    <nav class="side-nav">
+      <a href="#home" class="nav-link active" data-home>
+        <span>⌂</span> Home
+      </a>
+      <div class="nav-label">LEARNING PLATFORMS</div>
+      <div id="sideAppLinks"></div>
+    </nav>
+
+    <div class="access-box">
+      <div class="access-icon">!</div>
+      <div class="access-text">
+        <strong>NO ACCESS</strong>
+        <span>Demo Version</span>
+      </div>
+      <button id="getKeyBtn" class="key-btn">Get Key</button>
+    </div>
+  </aside>
+
+  <!-- Main content -->
+  <main id="home">
+    <section class="hero">
+      <div class="panda">
+  <img
+    src="https://files.catbox.moe/1wwjyz.jpg"
+    alt="Gyan Sprint Logo"
+  class="main-logo-circle">
+  
+</div>
+
+      <p class="eyebrow">YOUR LEARNING WORLD</p>
+      <h1>Welcome to<br><span>Gyan Sprint</span></h1>
+      <p class="hero-subtitle">
+        Education Must Be <span>Free</span> For Everyone
+      </p>
+      <div class="hero-line"><span></span></div>
+    </section>
+
+    <section class="platform-section">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">EXPLORE & LEARN</p>
+          <h2>All Applications <span>✦</span></h2>
+        </div>
+        <span class="app-count" id="appCount">09 APPS</span>
+      </div>
+
+      <div class="search-wrap">
+        <span>⌕</span>
+        <input id="searchInput" type="search"
+          placeholder="Search applications..."
+          autocomplete="off">
+        <button id="clearSearch" aria-label="Clear search">×</button>
+      </div>
+
+      <div class="filter-row">
+        <button class="filter active" data-filter="all">All Apps</button>
+        <button class="filter" data-filter="popular">Popular</button>
+        <button class="filter" data-filter="books">Books & Notes</button>
+      </div>
+
+      <div class="app-grid" id="appGrid"></div>
+
+      <div class="empty-state" id="emptyState" hidden>
+        <span>🔎</span>
+        <h3>No applications found</h3>
+        <p>Try searching with another name.</p>
+      </div>
+    </section>
+
+    <section class="community-banner">
+      <div class="community-emoji">💚</div>
+      <div>
+        <p class="section-kicker">LEARN TOGETHER</p>
+        <h2>Join Our Community</h2>
+        <p>Stay connected with the Gyan Sprint learning community.</p>
+      </div>
+      <button id="communityBtn" class="community-btn">Join Now ↗</button>
+    </section>
+
+    <footer>
+      <div class="footer-brand">🐼Gyan<span class="green">Sprint</span></div>
+      <p>Learn more. Grow faster. Sprint ahead.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#applications">Applications</a>
+        <a href="#" id="aboutBtn">About</a>
+      </div>
+      <p class="copyright">© 2026 Gyan Sprint · Independent learning directory</p>
+    </footer>
+  </main>
+
+  <!-- Community popup -->
+  <div class="modal-backdrop" id="communityModal">
+    <div class="community-modal">
+      <button class="modal-close" id="closeModal" aria-label="Close popup">×</button>
+   
+<div class="modal-logo">
+  <img src="https://files.catbox.moe/1wwjyz.jpg"
+       alt="Gyan Sprint Logo">
+</div>
+
+      <div class="modal-tag">GYAN SPRINT COMMUNITY</div>
+      <h2>Join Community!</h2>
+      <p class="modal-description">
+        Connect with fellow learners for updates, study resources and learning support.
+      </p>
+      <div class="member-pill">
+  <span class="live-dot"></span>
+  <img
+    src="https://telegram-badge.vercel.app/api/telegram-badge?channelId=@MADXBRIJESH"
+    alt="Telegram channel member count"
+    style="height:28px;max-width:220px"
+  >
+</div>
+      <a class="telegram-btn" id="telegramLink"
+         href="https://t.me/MADXBRIJESH" target="_blank" rel="noopener noreferrer">
+        JOIN TELEGRAM <span>➤</span>
+      </a>
+      <p class="modal-note">Community link can be updated by the website owner.</p>
+    </div>
+  </div>
+
+  <!-- Application details popup -->
+  <div class="modal-backdrop" id="appModal">
+    <div class="app-modal">
+      <button class="modal-close" id="closeAppModal" aria-label="Close popup">×</button>
+      <div class="app-modal-icon" id="detailIcon">📚</div>
+      <h2 id="detailTitle">Application</h2>
+      <p id="detailDescription">Explore this learning platform.</p>
+      <a id="openPlatform" class="telegram-btn" href="#"
+         target="_blank" rel="noopener noreferrer">OPEN PLATFORM ↗</a>
+      <p class="modal-note">You will visit the selected platform's website.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
