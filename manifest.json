@@ -1,0 +1,25 @@
+
+{
+  "id": "./",
+  "name": "Gyan Sprint",
+  "short_name": "Gyan Sprint",
+  "description": "Your learning and study app",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#07110d",
+  "theme_color": "#07110d",
+  "icons": [
+    {
+      "src": "https://files.catbox.moe/1wwjyz.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://files.catbox.moe/1wwjyz.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
