@@ -67,10 +67,10 @@ const apps = [
     url: "https://www.google.com/search?q=Mission+JEET+official"
   },
   {
-    name: "TIWARI CLASSES",
+    name: "CLASS PLUS",
     icon: "SF",
     emoji: "🔬",
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRBRwJ2_kbYkpCjchbHHCvVFnLckgs3DvMMiPlu5I1vA&s=10",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY81Isy4EsboyU4EHM9w8xRaTDyxB6AwyAC76uH1Xn6Q&s=10",
     color: "#ffd600",
     glow: "#524600",
     category: "popular",
@@ -87,7 +87,7 @@ const apps = [
     glow: "#4a2908",
     category: "popular",
     subtitle: "Rao & Sahab",
-    url: "https://brijesheditor.github.io/Bbbbbb/"
+    url: "https://brijesheditor.github.io/Gyan-Sprint/profile.html"
   },
   {
     name: "Vibrant",
