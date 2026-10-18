@@ -23,15 +23,15 @@ const apps = [
     url: "https://sachinweb.pages.dev/"
   },
   {
-    name: "PHYSICS WALLAH",
-    icon: "PW",
+    name: "UTKARSH",
+    icon: "UT",
     emoji: "❤️‍🩹",
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsPPJTx84nqujONE6xGDPWGjwhuKiN6-RoEl7hn5PmSg&s",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7phjI8G04kj2dH81kZMQEzSe3O-G4bQvTVR2tWocqRQ&s",
     color: "#aab3c2",
     glow: "#343943",
     category: "popular",
     subtitle: "Online Learning",
-    url: "https://www.pw.live/"
+    url:  "https://brijesheditor.github.io/Gyan-Sprint/rao.html""
   },
   {
     name: "KGS",
@@ -67,16 +67,16 @@ const apps = [
     url: "https://www.google.com/search?q=Mission+JEET+official"
   },
   {
-    name: "Science & Fun",
+    name: "TIWARI CLASSES",
     icon: "SF",
     emoji: "🔬",
-    logo: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRBRwJ2_kbYkpCjchbHHCvVFnLckgs3DvMMiPlu5I1vA&s=10",
     color: "#ffd600",
     glow: "#524600",
     category: "popular",
-    subtitle: "Science Learning",
+    subtitle: "All Nursing Classess",
     
-    url: "https://www.youtube.com/results?search_query=Science+and+Fun+official"
+    url: "https://brijesheditor.github.io/Gyan-Sprint/rao.html""
   },
   {
     name: "RAO SAHAB 🌹",
