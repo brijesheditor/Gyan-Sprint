@@ -31,7 +31,7 @@ const apps = [
     glow: "#343943",
     category: "popular",
     subtitle: "Online Learning",
-    url:  "https://brijesheditor.github.io/Gyan-Sprint/rao.html""
+    url:  "https://brijesheditor.github.io/Gyan-Sprint/rao.html"
   },
   {
     name: "KGS",
@@ -76,7 +76,7 @@ const apps = [
     category: "popular",
     subtitle: "All Nursing Classess",
     
-    url: "https://brijesheditor.github.io/Gyan-Sprint/rao.html""
+    url: "https://brijesheditor.github.io/Gyan-Sprint/rao.html"
   },
   {
     name: "RAO SAHAB 🌹",
