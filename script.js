@@ -131,7 +131,7 @@ const apps = [
     glow: "#3d153e",
     category: "popular",
     subtitle: "Exam Preparation",
-    url: "https://www.google.com/search?q=RWA+education+official"
+    url: "https://studybeepro.site/rwax/"
   },
   {
     name: "SELECTION WAY",
@@ -142,7 +142,7 @@ const apps = [
     glow: "#3d153e",
     category: "popular",
     subtitle: "Exam Preparation",
-    url: "https://www.google.com/search?q=RWA+education+official"
+    url: "https://brijesheditor.github.io/Website-/"
   }
 ];
 
