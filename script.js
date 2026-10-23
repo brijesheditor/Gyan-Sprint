@@ -1,5 +1,16 @@
 
 const apps = [
+    {
+    name: "APNA COLLEGE",
+    icon: "AC",
+    emoji: "❤️‍🩹",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3_8FUEXnjLbE93mxxJ_UVVPCMYBtFzgH8GAzzkYoU9w&s=10",
+    color: "#aab3c2",
+    glow: "#343943",
+    category: "popular",
+    subtitle: "Online Learning",
+    url: "https://pandeyji-apnacollage.netlify.app/"
+  },
   {
     name: "PHYSICS WALLAH",
     icon: "PW",
