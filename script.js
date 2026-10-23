@@ -1,6 +1,6 @@
 
 const apps = [
-      {
+  {
     name: "EDUTERIA",
     icon: "ED",
     emoji: "❤️‍🩹",
