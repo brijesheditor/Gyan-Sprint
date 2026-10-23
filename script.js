@@ -1,5 +1,16 @@
 
 const apps = [
+      {
+    name: "EDUTERIA",
+    icon: "ED",
+    emoji: "❤️‍🩹",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtIgStFQLzO4qgVHc5WhyWJbsSt8_My0LGxSw1DdQFuw&s=10",
+    color: "#aab3c2",
+    glow: "#343943",
+    category: "popular",
+    subtitle: "Online Learning",
+    url: "https://all.codewithvivek.qzz.io/eduteria"
+  },
     {
     name: "APNA COLLEGE",
     icon: "AC",
