@@ -252,7 +252,6 @@ function renderApps() {
   });
 }
 
-
 function renderSidebar() {
   sideAppLinks.innerHTML = apps.map(app => `
     <a class="nav-link side-app-link"
@@ -290,12 +289,10 @@ function renderSidebar() {
   });
 }
 
-
 function openSidebar() {
   document.body.classList.add("menu-open");
   document.body.style.overflow = "hidden";
 }
-
 
 function closeSidebar() {
   document.body.classList.remove("menu-open");
