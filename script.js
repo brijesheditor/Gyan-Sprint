@@ -252,35 +252,6 @@ function renderApps() {
   });
 }
 
-function renderSidebar() {
-  sideAppLinks.innerHTML = apps.map(app => `
-    <a class="nav-link side-app-link"
-      href="#applications"
-      data-side-app="${escapeHTML(app.name)}">
-
-      <span class="side-app-icon"
-        style="--app-color:${app.color};--app-glow:${app.glow}">
-        ${escapeHTML(app.emoji)}
-      </span>
-
-      <span>${escapeHTML(app.name)}</span>
-    </a>
-  `).join("");
-
-  sideAppLinks.querySelectorAll("[data-side-app]").forEach(link => {
-    link.addEventListener("click", event => {
-      event.preventDefault();
-      const app = apps.find(item =>
-        item.name === link.dataset.sideApp
-      );
-
-      closeSidebar();
-
-      if (app) openAppDetails(app);
-    });
-  });
-}
-
 
 function renderSidebar() {
   sideAppLinks.innerHTML = apps.map(app => `
@@ -317,6 +288,12 @@ function renderSidebar() {
       if (app) openAppDetails(app);
     });
   });
+}
+
+
+function openSidebar() {
+  document.body.classList.add("menu-open");
+  document.body.style.overflow = "hidden";
 }
 
 
