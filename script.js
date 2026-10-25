@@ -64,7 +64,7 @@ const apps = [
     glow: "#343943",
     category: "popular",
     subtitle: "Online Learning",
-    url: "https://sahukgs.com/batches"
+    url: "https://www.study-mate.in/batches"
   },
   {
     name: "Next Toppers",
@@ -112,15 +112,15 @@ const apps = [
     url: "https://brijesheditor.github.io/Gyan-Sprint/profile.html"
   },
   {
-    name: "Vibrant",
-    icon: "VB",
+    name: "KGS TEST",
+    icon: "KGS",
     emoji: "📘",
-    logo: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREKDmcV-Z0RVf6IH1tntVQUQoZFGGi-I_7DD-RkKkjHA&s=10",
     color: "#ff9700",
     glow: "#4a2b08",
     category: "popular",
     subtitle: "Learning Platform",
-    url: "https://www.google.com/search?q=Vibrant+education+official"
+    url: "https://test.study-mate.in/batches"
   },
   {
     name: "Gyan Sprint Books",
